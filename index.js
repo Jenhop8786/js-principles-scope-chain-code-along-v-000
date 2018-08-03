@@ -11,12 +11,16 @@ function changeLeastFavoriteCustomer(){
 
 
 function setBestCustomer(){
-  bestCustomer = 'not bob'
-}
+  bestCustomer = 'not bob';
+};
 
 function overWriteBestCustomer(newFavorite){
-  bestCustomer = newFavorite
-}
+  bestCustomer = newFavorite;
+};
+
+function changeLeastFavoriteCustomer(){
+  leastFavoriteCustomer = 'sour fred';
+};
 
 function congratulateCustomer(){
   return `congrats ${favoriteCustomer}`
